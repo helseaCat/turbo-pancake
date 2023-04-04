@@ -6,6 +6,10 @@ public class Main {
 
         current.buildCards();
 
+        for(int i = 0; i < 7; i++){
+
+        }
+
         System.out.println("Hello world!");
     }
 }
