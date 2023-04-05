@@ -9,7 +9,7 @@
  * classes 'multi' and 'true or false'.
  **/
 
-public class FlashCard {
+public class BaseFlashCard {
 
     private String theQuestion;
 //    private String[] answerChoices = new String[4];

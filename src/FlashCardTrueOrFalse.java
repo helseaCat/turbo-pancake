@@ -5,7 +5,7 @@
  * are specific to a true or false instance of a flash card.
  **/
 
-public class FlashCardTrueOrFalse extends FlashCard{
+public class FlashCardTrueOrFalse extends BaseFlashCard{
 
     private boolean answerChoices;
     private boolean correctAnswer;

@@ -11,7 +11,7 @@
  * if the answer is [1,0,0,0] - > int 1000
  **/
 
-public class FlashCardMultipleChoice extends FlashCard {
+public class FlashCardMultipleChoice extends BaseFlashCard {
 
     private String[] answerChoices;
     private int[] correctAnswer;
