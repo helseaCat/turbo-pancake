@@ -5,17 +5,6 @@
  * future implementations
  **/
 public class BuildSubject {
-    void buildCards2to5(){
-        // Cards For 2.1 Computational Thinking
-        Subject2_1 twoOne = new Subject2_1();
-        twoOne.build2_1();
-        twoOne.build2_2();
-        twoOne.build2_3();
-        twoOne.build2_4();
-        twoOne.build2_5();
-        twoOne.build2_6();
-        twoOne.build2_7();
-    }
 
     String[] injectChoices(String questionOne, String questionTwo, String questionThree, String questionFour){
         String[] answerChoices = new String[4];
