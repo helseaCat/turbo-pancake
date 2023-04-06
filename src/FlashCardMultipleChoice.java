@@ -26,15 +26,7 @@ public class FlashCardMultipleChoice extends BaseFlashCard {
         return answerChoices;
     }
 
-    public void setAnswerChoices(String[] answerChoices) {
-        this.answerChoices = answerChoices;
-    }
-
     public int[] getCorrectAnswer() {
         return correctAnswer;
-    }
-
-    public void setCorrectAnswer(int[] correctAnswer) {
-        this.correctAnswer = correctAnswer;
     }
 }
