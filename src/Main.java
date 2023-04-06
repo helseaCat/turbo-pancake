@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Subjects2to5 current = new Subjects2to5();
+        BuildSubject current = new BuildSubject();
 
-        current.buildCards();
+        current.buildCards2to5();
 
         for(int i = 0; i < 7; i++){
 
