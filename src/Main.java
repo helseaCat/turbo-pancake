@@ -7,7 +7,6 @@ public class Main {
 
         twoOne.build2_1();
 
-
         // turn into method somewhere
         FlashCardMultipleChoice flash;
         ArrayList ans = twoOne.getCards();
