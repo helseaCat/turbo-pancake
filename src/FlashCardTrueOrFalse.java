@@ -10,16 +10,25 @@ public class FlashCardTrueOrFalse extends BaseFlashCard{
     private String[] answerChoices = {"True", "False"};
     private boolean correctAnswer;
 
-    public FlashCardTrueOrFalse(String theQuestion, boolean correctAnswer) {
-        setTheQuestion(theQuestion);
-        this.correctAnswer = correctAnswer;
-    }
+//    public FlashCardTrueOrFalse(String theQuestion, boolean correctAnswer) {
+//        setTheQuestion(theQuestion);
+//        this.correctAnswer = correctAnswer;
+//    }
+
 
     public String[] getAnswerChoices() {
         return answerChoices;
     }
 
-    public boolean getCorrectAnswer() {
+    public void setAnswerChoices(String[] answerChoices) {
+        this.answerChoices = answerChoices;
+    }
+
+    public boolean setCorrectAnswer() {
         return correctAnswer;
+    }
+
+    public void setCorrectAnswer(boolean correctAnswer) {
+        this.correctAnswer = correctAnswer;
     }
 }
