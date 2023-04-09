@@ -9,6 +9,10 @@ import java.util.ArrayList;
 public class Subject2_1 extends BuildSubject{
     private ArrayList questions = new ArrayList();
 
+    public Subject2_1(){
+
+    }
+
 
     void build2_1(){
         FlashCardMultipleChoice question = new FlashCardMultipleChoice(

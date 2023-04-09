@@ -12,9 +12,6 @@
 public class BaseFlashCard {
     private String theQuestion;
 
-    // Getter for the question asked on the card.
-
-
     public void setTheQuestion(String theQuestion) {
         this.theQuestion = theQuestion;
     }
