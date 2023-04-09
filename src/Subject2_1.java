@@ -6,12 +6,15 @@ import java.util.ArrayList;
  * questions.
  **/
 
-public class Subject2_1 extends BuildSubject{
+public class Subject2_1 extends Subject{
     private ArrayList questions = new ArrayList();
+    private Subject subject;
 
     public Subject2_1(){
-
     }
+//    public Subject2_1(Subject subject){
+//        this.subject = subject;
+//    }
 
 
     void build2_1(){
