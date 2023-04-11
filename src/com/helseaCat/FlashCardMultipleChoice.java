@@ -1,3 +1,4 @@
+package com.helseaCat;
 
 /**
  * Inherits from the FlashCard class while adding the attributes

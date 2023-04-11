@@ -1,3 +1,4 @@
+package com.helseaCat;
 
 /**
  * Inherits from the FlashCard class while adding the attributes
@@ -5,7 +6,7 @@
  * are specific to a true or false instance of a flash card.
  **/
 
-public class FlashCardTrueOrFalse extends BaseFlashCard{
+public class FlashCardTrueOrFalse extends BaseFlashCard {
 
     private String[] answerChoices = {"True", "False"};
     private boolean correctAnswer;
