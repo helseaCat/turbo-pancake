@@ -9,18 +9,12 @@ import java.util.Scanner;
 public class CardReader {
     static private ArrayList<BaseFlashCard> cards = new ArrayList<>();
 
-//    public static void main(String[] args) throws IOException {
-//        FileWriter locFile = null;
-//        locFile = new FileWriter("questions.txt");
-//        locFile.close();
-//    }
-
     static {
         FlashCardMultipleChoice multiCard;
         FlashCardTrueOrFalse tfCard;
         Scanner scanner = null;
         try {
-            scanner = new Scanner(new BufferedReader(new FileReader("questions.txt")));
+            scanner = new Scanner(new BufferedReader(new FileReader("data/questions.txt")));
             String[] ins = scanner.nextLine().split(";");
             while(scanner.hasNextLine()){
                 if (Integer.parseInt(ins[0]) == 4) {
