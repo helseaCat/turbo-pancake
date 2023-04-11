@@ -1,3 +1,4 @@
+package com.helseaCat;
 
 /**
  * Inherits from the FlashCard class while adding the attributes
@@ -16,17 +17,26 @@ public class FlashCardMultipleChoice extends BaseFlashCard {
     private String[] answerChoices;
     private int[] correctAnswer;
 
-    public FlashCardMultipleChoice(String theQuestion, String[] answerChoices, int[] correctAnswer) {
-        setTheQuestion(theQuestion);
-        this.answerChoices = answerChoices;
-        this.correctAnswer = correctAnswer;
-    }
+//    public FlashCardMultipleChoice(String theQuestion, String[] answerChoices, int[] correctAnswer) {
+//        setTheQuestion(theQuestion);
+//        this.answerChoices = answerChoices;
+//        this.correctAnswer = correctAnswer;
+//    }
+
 
     public String[] getAnswerChoices() {
         return answerChoices;
     }
 
+    public void setAnswerChoices(String[] answerChoices) {
+        this.answerChoices = answerChoices;
+    }
+
     public int[] getCorrectAnswer() {
         return correctAnswer;
+    }
+
+    public void setCorrectAnswer(int[] correctAnswer) {
+        this.correctAnswer = correctAnswer;
     }
 }

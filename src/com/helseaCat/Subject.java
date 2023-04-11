@@ -1,15 +1,23 @@
+package com.helseaCat;
+
 import java.util.ArrayList;
 
+/**
+ * Subject should have 8 hard coded subjects.
+ **/
 public class Subject{
 
     private String moduleName;
     private int moduleId;
-    private ArrayList<Object> questions = new ArrayList<>();
+    private ArrayList<BaseFlashCard> cards = new ArrayList<>();
 
-    public Subject(String moduleName, int moduleId, ArrayList<Object> questions){
+    public Subject() {
+    }
+
+    public Subject(String moduleName, int moduleId, ArrayList<BaseFlashCard> cards){
         this.moduleName = moduleName;
         this.moduleId = moduleId;
-        this.questions = questions;
+        this.cards = cards;
     }
 
     public String getModuleName() {
@@ -28,11 +36,11 @@ public class Subject{
         this.moduleId = moduleId;
     }
 
-    public ArrayList<Object> getQuestions() {
-        return questions;
+    public ArrayList<BaseFlashCard> getCards() {
+        return cards;
     }
 
-    public void setQuestions(ArrayList<Object> questions) {
-        this.questions = questions;
+    public void setCards(ArrayList<BaseFlashCard> cards) {
+        this.cards = cards;
     }
 }
