@@ -11,7 +11,16 @@ package com.helseaCat;
  **/
 
 public class BaseFlashCard {
+    private int numberOfChoices;
     private String theQuestion;
+
+    public int getNumberOfChoices() {
+        return numberOfChoices;
+    }
+
+    public void setNumberOfChoices(int numberOfChoices) {
+        this.numberOfChoices = numberOfChoices;
+    }
 
     public void setTheQuestion(String theQuestion) {
         this.theQuestion = theQuestion;

@@ -17,12 +17,16 @@ public class FlashCardMultipleChoice extends BaseFlashCard {
     private String[] answerChoices;
     private int[] correctAnswer;
 
-//    public FlashCardMultipleChoice(String theQuestion, String[] answerChoices, int[] correctAnswer) {
-//        setTheQuestion(theQuestion);
-//        this.answerChoices = answerChoices;
-//        this.correctAnswer = correctAnswer;
-//    }
-
+    public void printAnswerChoices(){
+//        for(int i = 0; i < 4; i++){
+//            System.out.println(answerChoices[i] + "\n");
+//        }
+        System.out.println();
+        for(String answerChoice : answerChoices){
+            System.out.println("\u2022" + answerChoice);
+        }
+        System.out.println();
+    }
 
     public String[] getAnswerChoices() {
         return answerChoices;

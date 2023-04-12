@@ -12,19 +12,39 @@ public class CardReader {
     static {
         FlashCardMultipleChoice multiCard;
         FlashCardTrueOrFalse tfCard;
-        Scanner scanner = null;
+//        Scanner scanner;
         try {
-            scanner = new Scanner(new BufferedReader(new FileReader("data/questions.txt")));
-            String[] ins = scanner.nextLine().split(";");
-            while(scanner.hasNextLine()){
+            Scanner scanner1 = new Scanner(new BufferedReader(new FileReader("data/questions.txt")));
+            String[] ins = scanner1.nextLine().split(";");
+            int i = 0;
+            while(scanner1.hasNextLine()){
                 if (Integer.parseInt(ins[0]) == 4) {
-                    cards.add(multiCard = new FlashCardMultipleChoice());
-                    scanner.nextLine();
+                    multiCard = new FlashCardMultipleChoice();
+                    multiCard.setNumberOfChoices(4);
+                    multiCard.setTheQuestion(ins[1]);
+                    Scanner scanner2 = new Scanner(new BufferedReader(new FileReader("data/choices.txt")));
+                    String[] choices = new String[4];
+                    for(int j = 0; j < 4; j++){
+                        choices[j] = scanner2.nextLine();
+                    }
+                    multiCard.setAnswerChoices(choices);
+                    scanner2 = new Scanner(new BufferedReader(new FileReader("data/answers.txt")));
+                    int[] answers = new int[4];
+                    String[] answersIns = scanner2.nextLine().split(";");
+                    for(int j = 0; j < 4; j++){
+                        answers[j] = Integer.parseInt(answersIns[j]);
+                    }
+                    multiCard.setCorrectAnswer(answers);
+//                    scanner2 = new Scanner(new BufferedReader(new FileReader("data/subjects.txt")));
+                    cards.add(multiCard);
                 }
                 else {
-                    cards.add(tfCard = new FlashCardTrueOrFalse());
-                    scanner.nextLine();
+                    tfCard = new FlashCardTrueOrFalse();
+                    tfCard.setTheQuestion(ins[1]);
+//                    cards.add(tfCard);
                 }
+                i++;
+                scanner1.nextLine();
             }
         }
         catch (IOException e) {
