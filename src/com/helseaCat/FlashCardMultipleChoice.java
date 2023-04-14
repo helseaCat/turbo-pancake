@@ -18,9 +18,6 @@ public class FlashCardMultipleChoice extends BaseFlashCard {
     private int[] correctAnswer;
 
     public void printAnswerChoices(){
-//        for(int i = 0; i < 4; i++){
-//            System.out.println(answerChoices[i] + "\n");
-//        }
         System.out.println();
         for(String answerChoice : answerChoices){
             System.out.println("\u2022" + answerChoice);

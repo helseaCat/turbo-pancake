@@ -4,13 +4,14 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Main {
-    private static CardReader cards = new CardReader();
+    private static final CardReader cards = new CardReader();
     public static void main(String[] args) {
 
         ArrayList<BaseFlashCard> ans = cards.getCards();
+        int cardToGet = ans.size()-1;
 
-        if(ans.get(0).getNumberOfChoices() == 4){
-            FlashCardMultipleChoice outs = (FlashCardMultipleChoice) ans.get(0);
+        if(ans.get(cardToGet).getNumberOfChoices() == 4){
+            FlashCardMultipleChoice outs = (FlashCardMultipleChoice) ans.get(cardToGet);
             String one = outs.getTheQuestion();
             int[] three = outs.getCorrectAnswer();
 
@@ -21,6 +22,5 @@ public class Main {
         else {
             FlashCardTrueOrFalse outs = (FlashCardTrueOrFalse) ans.get(0);
         }
-
     }
 }
