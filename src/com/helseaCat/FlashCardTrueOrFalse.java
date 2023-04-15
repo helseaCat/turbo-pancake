@@ -21,11 +21,11 @@ public class FlashCardTrueOrFalse extends BaseFlashCard {
         return answerChoices;
     }
 
-    public void setAnswerChoices(String[] answerChoices) {
-        this.answerChoices = answerChoices;
-    }
+//    public void setAnswerChoices(String[] answerChoices) {
+//        this.answerChoices = answerChoices;
+//    }
 
-    public boolean setCorrectAnswer() {
+    public boolean getCorrectAnswer() {
         return correctAnswer;
     }
 
