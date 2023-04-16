@@ -10,7 +10,6 @@ An important detail is the driving route that Stanley takes to the store.
 1. Abstraction, 2. Pattern Recognition, 3. Decomposition, 4. Algorithm
 1. Decomposition, 2. Pattern Recognition, 3. Abstraction, 4. Algorithm
 1. Decomposition, 2. Abstraction, 3. Algorithm, 4. Pattern Recognition
-Which options is the correct definition of Computational Thinking? Select the three correct answers.
 It allows us to take a complex problem and comprehend what the problem is so we can develop possible solutions.
 It is used while debugging the code.
 Present solutions in a way that a computer, a human, or both, can understand.

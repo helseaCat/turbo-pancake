@@ -8,7 +8,8 @@ public class Main {
     public static void main(String[] args) {
 
         ArrayList<BaseFlashCard> ans = cards.getCards();
-        int cardToGet = ans.size()-1;
+//        int cardToGet = ans.size()-1;
+        int cardToGet = 5;
 
         if(ans.get(cardToGet).getNumberOfChoices() == 4){
             FlashCardMultipleChoice outs = (FlashCardMultipleChoice) ans.get(cardToGet);
