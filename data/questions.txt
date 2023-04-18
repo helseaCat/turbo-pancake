@@ -1,3 +1,4 @@
+### 2.1
 4;Select the 3 choices that represent applying pattern recognition to purchasing supplies.
 4;Select the 3 choices that represent applying abstraction to purchasing supplies.
 4;Which of these options places the steps for Computational Thinking in the correct order?
@@ -5,3 +6,7 @@
 4;Which of these steps breaks down a larger problem into smaller problems?
 4;Which option defines Abstraction?
 4;Which option defines algorithm?
+### 2.2
+4;Which of these block types starts the code in Scratch?
+2;C Blocks have additional variables that can be manipulated in Scratch.
+2;Debugging is more common to encounter than problem solving.

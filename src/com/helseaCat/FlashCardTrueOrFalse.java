@@ -16,6 +16,10 @@ public class FlashCardTrueOrFalse extends BaseFlashCard {
 //        this.correctAnswer = correctAnswer;
 //    }
 
+    public void printAnswerChoices(){
+        System.out.println("\n\u2022" + "True");
+        System.out.println("\u2022" + "False\n");
+    }
 
     public String[] getAnswerChoices() {
         return answerChoices;

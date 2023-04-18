@@ -41,15 +41,13 @@ public class CardReader {
                     cards.add(multiCard);
                 }
                 else {
+                    numberOfChoices = Integer.parseInt(question[0]);
+                    theQuestion = question[1];
                     tfCard = new FlashCardTrueOrFalse();
-                    tfCard.setNumberOfChoices(2);
-                    tfCard.setTheQuestion(question[1]);
-                    String answersIns = scanner3.nextLine();
-
-                    if(answersIns.equals(true)){
-                        tfCard.setCorrectAnswer(true);
-                    }
-                    else {tfCard.setCorrectAnswer(false);}
+                    tfCard.setNumberOfChoices(numberOfChoices);
+                    tfCard.setTheQuestion(theQuestion);
+                    String[] answersIns = scanner3.nextLine().split(";");
+                    tfCard.setCorrectAnswer(answersIns[0].equals("1"));
                     cards.add(tfCard);
                 }
 //                question = scanner1.nextLine().split(";");
