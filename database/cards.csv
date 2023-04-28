@@ -1,0 +1,35 @@
+Module,Subject,Question number,Question asked,Number of question selections,Correct answer true false,Correct answer multi,Choice multi
+2,Computational Thinking,1,Select the 3 choices that represent applying pattern recognition to purchasing supplies.,4,,TRUE,Stanley has painted rooms in the past and will use that experience to paint rooms during this remodel.
+2,Computational Thinking,1,Select the 3 choices that represent applying pattern recognition to purchasing supplies.,4,,,All of the tools Stanley purchases are the same color.
+2,Computational Thinking,1,Select the 3 choices that represent applying pattern recognition to purchasing supplies.,4,,TRUE,The technique used to paint the walls will determine which supplies Stanley purchases.
+2,Computational Thinking,1,Select the 3 choices that represent applying pattern recognition to purchasing supplies.,4,,TRUE,"If the remodel will be extensive, then Stanley can consider investing in a paint sprayer instead of rollers and brushes."
+2,Computational Thinking,2,Select the 3 choices that represent applying abstraction to purchasing supplies.,4,,TRUE,An irrelevant detail is determining whether the wall is painted from the bottom up or the top down.
+2,Computational Thinking,2,Select the 3 choices that represent applying abstraction to purchasing supplies.,4,,TRUE,"An important detail is renting or buying equipment for painting (paint sprayer, scaffolding, etc)"
+2,Computational Thinking,2,Select the 3 choices that represent applying abstraction to purchasing supplies.,4,,TRUE,An important detail is the amount of time Stanley has to paint as that determines they type of equipment required (paint sprayer or rollers and brushes)
+2,Computational Thinking,2,Select the 3 choices that represent applying abstraction to purchasing supplies.,4,,,An important detail is the driving route that Stanley takes to the store.
+2,Computational Thinking,3,Which of these options places the steps for Computational Thinking in the correct order?,4,,,"1. Abstraction, 2. Decomposition, 3. Pattern Recognition, 4. Algorithm"
+2,Computational Thinking,3,Which of these options places the steps for Computational Thinking in the correct order?,4,,,"1. Abstraction, 2. Pattern Recognition, 3. Decomposition, 4. Algorithm"
+2,Computational Thinking,3,Which of these options places the steps for Computational Thinking in the correct order?,4,,TRUE,"1. Decomposition, 2. Pattern Recognition, 3. Abstraction, 4. Algorithm"
+2,Computational Thinking,3,Which of these options places the steps for Computational Thinking in the correct order?,4,,,"1. Decomposition, 2. Abstraction, 3. Algorithm, 4. Pattern Recognition"
+2,Computational Thinking,4,Which options is the correct definition of Computational Thinking? Select the three correct answers.,4,,TRUE,It allows us to take a complex problem and comprehend what the problem is so we can develop possible solutions.
+2,Computational Thinking,4,Which options is the correct definition of Computational Thinking? Select the three correct answers.,4,,,It is used while debugging the code.
+2,Computational Thinking,4,Which options is the correct definition of Computational Thinking? Select the three correct answers.,4,,TRUE,"Present solutions in a way that a computer, a human, or both, can understand."
+2,Computational Thinking,4,Which options is the correct definition of Computational Thinking? Select the three correct answers.,4,,TRUE,It is the problem-solving process.
+2,Computational Thinking,5,Which of these steps breaks down a larger problem into smaller problems?,4,,TRUE,Decomposition
+2,Computational Thinking,5,Which of these steps breaks down a larger problem into smaller problems?,4,,,Pattern Recognition
+2,Computational Thinking,5,Which of these steps breaks down a larger problem into smaller problems?,4,,,Algorithm
+2,Computational Thinking,5,Which of these steps breaks down a larger problem into smaller problems?,4,,,Abstraction
+2,Computational Thinking,6,Which option defines Abstraction?,4,,,Design simple steps to solve a problem.
+2,Computational Thinking,6,Which option defines Abstraction?,4,,,Recognize similarities between two different problems and experiences.
+2,Computational Thinking,6,Which option defines Abstraction?,4,,TRUE,Represents important details while ignoring irrelevant details.
+2,Computational Thinking,6,Which option defines Abstraction?,4,,,Breakdown of larger problems into smaller problems.
+2,Computational Thinking,7,Which option defines algorithm?,4,,,Represents important details while ignoring irrelevant details.
+2,Computational Thinking,7,Which option defines algorithm?,4,,,Breakdown of larger problems into smaller problems.
+2,Computational Thinking,7,Which option defines algorithm?,4,,TRUE,Design simple steps to solve a problem.
+2,Computational Thinking,7,Which option defines algorithm?,4,,,Recognize similarities between two different problems and experiences.
+2,Block-Based Coding,1,Which of these block types starts the code in Scratch?,4,,,C Block
+2,Block-Based Coding,1,Which of these block types starts the code in Scratch?,4,,,Stack Block
+2,Block-Based Coding,1,Which of these block types starts the code in Scratch?,4,,,Control Block
+2,Block-Based Coding,1,Which of these block types starts the code in Scratch?,4,,TRUE,Hat Block
+2,Block-Based Coding,2,C Blocks have additional variables that can be manipulated in Scratch.,2,TRUE,,
+2,Block-Based Coding,3,Debugging is more common to encounter than problem solving.,2,TRUE,,
